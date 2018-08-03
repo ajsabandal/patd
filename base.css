@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC');
+@import url('https://fonts.googleapis.com/css?family=Unica+One');
 
 body {
     margin: 0%;
@@ -31,7 +31,7 @@ ul {
     list-style-type: none;
     padding: 20px;
     border-radius: 5px;
-    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Unica One', cursive;
 }
 li a {
     padding: 10px;
@@ -50,17 +50,18 @@ li a:hover {
 }
 h1 {
     display: block;
-    font-family: 'Playfair Display SC', serif;
-    font-size: 50px;
+    text-align: center;
+    font-family: 'Unica One', cursive;
+    font-size: 60px;
     color: #41676e;
     margin: 20px;
     padding: 0;
 }
 p {
-    text-align: left;
+    text-align: justify;
     font-size: 15px;
-    font-family: sans-serif;
+    font-family: 'Unica One', cursive;
     color: #41676e;
-    margin: 20px;
+    margin: 25px;
     padding: 0;
 }
