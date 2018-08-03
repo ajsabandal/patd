@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC');
+
 body {
     margin: 0%;
     padding: 0%;
@@ -15,10 +17,14 @@ header {
     padding: 0;
     height: 100%;
     width: 200px;
-    background-color: #66b2b2;
+    background-color: #41676e;
 }
 .content {
     margin-left: 200px;
+    height: 10000px;
+}
+.content-design {
+    background-color: #c9d1c5;
     height: 10000px;
 }
 ul {
@@ -30,7 +36,7 @@ ul {
 li a {
     padding: 10px;
     text-decoration: none;
-    color:  #317873;
+    color:  #a2c0b7;
     display: inline-block; 
     font-size: 25px;
 }
@@ -41,4 +47,20 @@ li a:hover {
     width: 100%;
     margin: 0;
 
+}
+h1 {
+    display: block;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 50px;
+    color: #41676e;
+    margin: 20px;
+    padding: 0;
+}
+p {
+    text-align: left;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #41676e;
+    margin: 20px;
+    padding: 0;
 }
