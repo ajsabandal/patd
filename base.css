@@ -64,7 +64,7 @@ h1 {
     margin: 20px;
     padding: 0;
 }
-p {
+p.about-panic {
     text-align: justify;
     font-size: 20px;
     font-family: 'Unica One', cursive;
@@ -99,4 +99,12 @@ ul.social-link li {
     padding: 5px;
     font-size: 30px;
     
+}
+p.tour {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Unica One', cursive;
+    color: #41676e;
+    margin: 25px;
+    padding: 0;
 }
