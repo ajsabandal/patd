@@ -27,21 +27,28 @@ header {
     background-color: #c9d1c5;
     min-height: 100vh;
 }
-ul {
+ul.main-menu {
     list-style-type: none;
     padding: 20px;
     border-radius: 5px;
     font-family: 'Unica One', cursive;
 }
-li a {
+ul.main-menu li a {
     padding: 10px;
     text-decoration: none;
     color:  #a2c0b7;
     display: inline-block; 
     font-size: 25px;
 }
-li a:hover {
+ul.main-menu li a:hover {
         color:	#83d0c9;
+}
+ul.main-menu li:not(:last-child)::after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 1px;
+        background-color: rgba(255,255,255,0.5);
 }
 .image-holder img {
     width: 100%;
@@ -64,4 +71,26 @@ p {
     color: #41676e;
     margin: 25px;
     padding: 0;
+}
+.column {
+    display: flex;
+}
+.column > div {
+    width: 300px;
+    margin: 0 5px;
+}
+.column > div:nth-child(1) {
+    flex: 1; 
+}
+ul.social-link {
+    list-style: none;
+    color: #41676e;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+ul.social-link li {
+    margin: 5px;
+    padding: 5px;
+    width: 20px;
 }
