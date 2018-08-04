@@ -74,6 +74,11 @@ p {
 }
 .column {
     display: flex;
+    font-size: 15px;
+    font-family: 'Unica One', cursive;
+    text-align: right;
+    color: #41676e;
+    padding: 0;
 }
 .column > div {
     width: 300px;
@@ -92,5 +97,6 @@ ul.social-link {
 ul.social-link li {
     margin: 5px;
     padding: 5px;
-    width: 20px;
+    font-size: 30px;
+    
 }
