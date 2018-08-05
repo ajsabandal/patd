@@ -111,11 +111,12 @@ p.tour {
 ul.tour-list {
     list-style: none;
     color: #41676e;
-    margin: 40px;
-    padding: 40px;
+    margin: 10px;
+    padding: 10px;
 }
 ul.tour-list li {
-    margin: 5px;
+    margin: 0;
     padding: 5px;
-    font-size: 30px;
+    font-size: 25px;
+    font-family: 'Unica One', cursive;
 }
